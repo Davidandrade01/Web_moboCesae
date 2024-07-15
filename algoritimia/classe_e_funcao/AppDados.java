@@ -39,4 +39,25 @@ class DadosRandomicos{
 }
 
 
+class RolarDados{
+    
+   RolarDados(){
+   
+        System.out.println(rolar())
+        System.out.println(rolar())
+        System.out.println(rolar())
+        System.out.println(rolar())
+        System.out.println(rolar())
+
+    }
+    
+     String  rolar(){
+        Random numeroAleatorio= new Random();
+        int result= numeroAleatorio.nextInt(1,6);
+        return  " O programa vai rolar dados" + result;
+    }
+}
+
+
+
 
