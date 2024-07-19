@@ -1,22 +1,25 @@
 import java.util.Scanner;
 
 public class ValidacaoNumeroPositivo {
+    
+    static int numero;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numero = obterNumeroPositivo(scanner);
+        obterNumeroPositivo(scanner); 
         System.out.println("Você digitou um número positivo: " + numero);
         scanner.close();
     }
 
-    public static int obterNumeroPositivo(Scanner scanner) {
+    public static void obterNumeroPositivo(Scanner scanner) {
         System.out.print("Digite um número positivo: ");
-        int numero = scanner.nextInt();
+        int input = scanner.nextInt();
 
-        if (numero > 0) {
-            return numero;
+        if (input > 0) {
+            numero = input; 
         } else {
             System.out.println("Número inválido! Por favor, digite um número positivo.");
-            return obterNumeroPositivo(scanner); // Chamada recursiva
+            obterNumeroPositivo(scanner); 
         }
     }
 }
