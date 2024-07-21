@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adiciona margem entre as cards */
+}
+
+.card {
+    width: 18rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Margem adicional para garantir espaçamento */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd4d708e; /* Cor de fundo dos textos */
+    color: white; /* Cor da fonte branca */
+}
+
+.card-body p {
+    font-size: 20px;
+    margin-bottom: 16px; /* Espaçamento entre os parágrafos */
+}

@@ -1,0 +1,43 @@
+.foot {
+    background-color: #75C6D1;
+}
+
+
+
+.btn-custom {
+    background-color:#FDC676; 
+    border-color: #FF4C4C; 
+    color: rgb(107, 103, 103);
+}
+
+.btn-custom:hover {
+    border-color: #3A2584 ;
+    color: white ;
+   
+}
+
+
+
+h5{
+    color:#3A2584;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+.topicos{
+
+    color:white;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+
+li{
+    margin: 16px;
+}
